@@ -1,0 +1,19 @@
+QueueConfig:
+    ExpirationMS: 3600000
+    
+    Exchange: RiverFlowExchange
+    
+    FailureRequeue: true
+    
+    DefaultRoutingKey: FlowKey
+    
+    # 1 non-persistent, 2 persistent
+    DeliveryMode: 1
+    
+    Durable: false
+    
+    MultipleAck: false
+    
+    PrefetchCount: 20
+    
+    QueueName: river-flow
