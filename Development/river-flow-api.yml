@@ -1,0 +1,8 @@
+Database:
+    CreateTimeoutSeconds: 100
+    
+Middleware:
+    AddStackifyRequestTracer: false
+    
+Meta:
+    SwaggerEnabled: true
